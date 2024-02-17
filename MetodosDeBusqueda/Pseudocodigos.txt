@@ -1,0 +1,25 @@
+Busqueda Secuencial:
+Función BúsquedaSecuencial(arreglo, objetivo)
+    Para i desde 0 hasta longitud de arreglo
+        Si arreglo[i] es igual a objetivo
+            Devolver i
+    Devolver -1
+Fin de la Función
+
+Busqueda binaria:
+Función BúsquedaBinaria(arreglo, objetivo)
+    inicio = 0
+    fin = longitud de arreglo - 1
+
+    Mientras inicio <= fin
+        medio = inicio + (fin - inicio) / 2
+
+        Si arreglo[medio] es igual a objetivo
+            Devolver medio
+
+        Si arreglo[medio] < objetivo
+            inicio = medio + 1
+        Sino
+            fin = medio - 1
+    Devolver -1
+Fin de la Función
